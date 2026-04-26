@@ -1,0 +1,23 @@
+# Virtual environment (never commit or zip)
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Downloaded datasets (large; recreate with --download)
+data/
+torchgeo_loveda_inspect/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,8 @@
+dataset,num_points,sampling,loss,epochs,val_mIoU,best_val_mIoU
+synthetic,10,random,focal,1,0.061935,0.061935
+synthetic,10,balanced,focal,1,0.061607,0.061607
+synthetic,50,random,focal,1,0.061978,0.061978
+synthetic,50,balanced,focal,1,0.062185,0.062185
+synthetic,200,random,focal,1,0.062897,0.062897
+synthetic,200,balanced,focal,1,0.063299,0.063299
+synthetic,50,random,ce,1,0.062886,0.062886
